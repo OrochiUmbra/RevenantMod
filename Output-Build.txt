@@ -1,0 +1,5 @@
+﻿Build started...
+1>------ Build started: Project: ExampleMod, Configuration: Debug Any CPU ------
+1>Skipping analyzers to speed up the build. You can execute 'Build' or 'Rebuild' command to run analyzers.
+1>ExampleMod -> D:\Lok's 文件 - 不要刪除\桌面\RevenantMod-main\bin\Debug\netstandard2.0\RevenantMod.dll
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========

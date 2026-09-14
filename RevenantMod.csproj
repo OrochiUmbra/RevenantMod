@@ -1,0 +1,283 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>RevenantMod</AssemblyName>
+    <Description>Grimora Mod Revenant Card Pack</Description>
+    <Version>0.0.1</Version>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>Latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Art\Cards\Blood\Normal\Goblin.png" />
+    <EmbeddedResource Include="Art\Cards\Blood\Normal\Goblin_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Blood\Normal\Inochi.png" />
+    <EmbeddedResource Include="Art\Cards\Blood\Normal\Inochi_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Blood\Normal\portrait_orochimitama.png" />
+    <EmbeddedResource Include="Art\Cards\Blood\Normal\portrait_orochimitama_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Blood\Normal\Yaramayawho.png" />
+    <EmbeddedResource Include="Art\Cards\Blood\Normal\Yaramayawho_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Blood\Rare\Bigfoot.png" />
+    <EmbeddedResource Include="Art\Cards\Blood\Rare\Bigfoot_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Blood\Rare\Vila.png" />
+    <EmbeddedResource Include="Art\Cards\Blood\Rare\Vila_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\Pixel\pixelportrait_allip.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\Pixel\pixelportrait_amami.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\Pixel\pixelportrait_anorexia.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\Pixel\pixelportrait_brainjar.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\Pixel\pixelportrait_combustor.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\Pixel\pixelportrait_deadstoat.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\Pixel\pixelportrait_drbones.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\Pixel\pixelportrait_dysmorphialeft.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\Pixel\pixelportrait_dysmorphiaright.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\Pixel\pixelportrait_guts.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\Pixel\pixelportrait_harbinger.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\Pixel\pixelportrait_hastur.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\Pixel\pixelportrait_imp.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\Pixel\pixelportrait_moledigger.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\Pixel\pixelportrait_nekros.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\Pixel\pixelportrait_nuckelavee.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\Pixel\pixelportrait_odiousmass.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\Pixel\pixelportrait_prometheusflame.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\Pixel\pixelportrait_ralsei.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\Pixel\pixelportrait_reveduerevenant.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\Pixel\pixelportrait_sans.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\Pixel\pixelportrait_skelephone.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\Pixel\pixelportrait_soulgate.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\Pixel\pixelportrait_thebloated.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\Pixel\pixelportrait_undeadcivilian.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\Pixel\pixelportrait_undeadvillage.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\Pixel\pixelportrait_undertaker.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\Pixel\pixelportrait_wendigo.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_allip.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_allip_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_amami.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_amami_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_ankhame.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_ankhame_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_anorexia.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_anorexia_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_brainjar.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_brainjar_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_combustor.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_combustor_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_deadstoat.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_deadstoat_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_drbones.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_drbones_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_dysmorphialeft.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_dysmorphialeft_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_dysmorphiaright.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_dysmorphiaright_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_ravenstillborn.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_ravenstillborn_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_reveduerevenant.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_reveduerevenant_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_steinnfrank.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_steinnfrank_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_guts.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_guts_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_harbinger.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_harbinger_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_hastur.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_hastur_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_imp.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_imp_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_moledigger.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_moledigger_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_nekros.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_nekros_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_nuckelavee.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_nuckelavee_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_odiousmass.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_odiousmass_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_ralsei.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_ralsei_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_sans.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_sans_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_skelephone.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_skelephone_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_soulgate.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_soulgate_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_prometheusflame.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_prometheusflame_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_thebloated.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_thebloated_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_undeadcivilian.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_undeadcivilian_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_undeadvillage.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_undeadvillage_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_undertaker.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_undertaker_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_wendigo.png" />
+    <EmbeddedResource Include="Art\Cards\Normal\portrait_wendigo_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\Pixel\pixelportrait_annebean.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\Pixel\pixelportrait_exorcist.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\Pixel\pixelportrait_flembones.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\Pixel\pixelportrait_fulmineskull.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\Pixel\pixelportrait_fulurossa.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\Pixel\pixelportrait_ganceann.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\Pixel\pixelportrait_inochiumbra.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\Pixel\pixelportrait_inochiprime.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\Pixel\pixelportrait_limbs.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\Pixel\pixelportrait_nekrosprime.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\Pixel\pixelportrait_orochiumbra.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\Pixel\pixelportrait_ourobones.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\Pixel\pixelportrait_reanimated.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\Pixel\pixelportrait_revenanteldritch.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\Pixel\pixelportrait_spadewarrior.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\Pixel\pixelportrait_whistlewind.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\portrait_annebean.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\portrait_annebean_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\portrait_exorcist.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\portrait_exorcist_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\portrait_flembones.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\portrait_flembones_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\portrait_fulmineskull.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\portrait_fulmineskull_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\portrait_fulurossa.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\portrait_fulurossa_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\portrait_ganceann.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\portrait_ganceann_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\portrait_inochiumbra.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\portrait_inochiumbra_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\portrait_inochiprime.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\portrait_inochiprime_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\portrait_limbs.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\portrait_limbs_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\portrait_nekrosprime.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\portrait_nekrosprime_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\portrait_orochi.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\portrait_orochiumbra.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\portrait_orochiumbra_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\portrait_orochi_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\portrait_ourobones.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\portrait_ourobones_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\portrait_reanimated.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\portrait_reanimated_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\portrait_revenanteldritch.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\portrait_revenanteldritch_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\portrait_spadewarrior.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\portrait_spadewarrior_emission.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\portrait_whistlewind.png" />
+    <EmbeddedResource Include="Art\Cards\Rare\portrait_whistlewind_emission.png" />
+    <EmbeddedResource Include="Art\Decks\cardslot_buffpower.png" />
+    <EmbeddedResource Include="Art\Decks\deck_badomen.png" />
+    <EmbeddedResource Include="Art\Decks\deck_calamity.png" />
+    <EmbeddedResource Include="Art\Decks\deck_creator.png" />
+    <EmbeddedResource Include="Art\Decks\deck_delta.png" />
+    <EmbeddedResource Include="Art\Decks\deck_digger.png" />
+    <EmbeddedResource Include="Art\Decks\deck_latcher.png" />
+    <EmbeddedResource Include="Art\Decks\deck_necrosis.png" />
+    <EmbeddedResource Include="Art\Decks\deck_ritual.png" />
+    <EmbeddedResource Include="Art\Decks\deck_soulgate.png" />
+    <EmbeddedResource Include="Art\Decks\deck_testsubject.png" />
+    <EmbeddedResource Include="Art\Decks\deck_undeadbeast.png" />
+    <EmbeddedResource Include="Art\Decks\pack_revenant.png" />
+    <EmbeddedResource Include="Art\Sigils\Active\ability_dansemacabre.png" />
+    <EmbeddedResource Include="Art\Sigils\Active\ability_dansemacabre_active.png" />
+    <EmbeddedResource Include="Art\Sigils\Active\ability_dormant.png" />
+    <EmbeddedResource Include="Art\Sigils\Active\ability_dormant_active.png" />
+    <EmbeddedResource Include="Art\Sigils\Active\ability_transmute.png" />
+    <EmbeddedResource Include="Art\Sigils\Active\Pixel\pixelability_activated_dansemacabre.png" />
+    <EmbeddedResource Include="Art\Sigils\Active\Pixel\pixelability_activated_dormant.png" />
+    <EmbeddedResource Include="Art\Sigils\Active\Pixel\pixelability_activated_transmute.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\ability_calamityeffusion.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\ability_comfortaura.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\ability_corpseparty.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\ability_deathknock.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\ability_drawcopydelay1.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\ability_drawcopydelay2.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\ability_grudgecollector1.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\ability_grudgecollector2.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\ability_latchdiggerprime.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\ability_latchevolve.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\ability_necrosis.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\ability_drawcopyskeleton.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\ability_drawcopydelay.png" />
+    <EmbeddedResource Include="Art\Sigils\Active\ability_evocation.png" />
+    <EmbeddedResource Include="Art\Sigils\Active\ability_lifedraw.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\ability_opposingbonescost.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\ability_grudgecollector.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\ability_haunterarmour.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\ability_ignition.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\ability_latchdigger.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\ability_latchgrimorarandomprime.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\ability_latchignition.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\ability_macabrebonepulse.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\ability_partingstroke.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\ability_limbo.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\ability_protector.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\ability_rancor.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\ability_relentlessrevenant.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\ability_revedue.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\ability_selfscaledamage.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\ability_soothingmeadows.png" />
+    <EmbeddedResource Include="Art\Sigils\Active\ability_soulgate.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\ability_splittingcorpse.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\ability_torpid.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\ability_tutordead.png" />
+    <EmbeddedResource Include="Art\Sigils\Active\Pixel\pixelability_activated_evocation.png" />
+    <EmbeddedResource Include="Art\Sigils\Active\Pixel\pixelability_activated_lifedraw.png" />
+    <EmbeddedResource Include="Art\Sigils\Active\Pixel\pixelability_activated_soulgate.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\Pixel\pixelability_calamityeffusion.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\Pixel\pixelability_comfortaura.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\Pixel\pixelability_corpseparty.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\Pixel\pixelability_deathknock.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\Pixel\pixelability_deathmetal.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\Pixel\pixelability_defiler.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\Pixel\pixelability_drawcopydelay.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\Pixel\pixelability_drawcopyskeleton.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\Pixel\pixelability_explodingcorpse.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\Pixel\pixelability_grudgecollector.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\Pixel\pixelability_haunterlinger.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\Pixel\pixelability_ignition.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\Pixel\pixelability_latchdigger.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\Pixel\pixelability_latchdiggerprime.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\Pixel\pixelability_latchevolve.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\Pixel\pixelability_latchgrimorarandomprime.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\Pixel\pixelability_latchignition.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\Pixel\pixelability_limbo.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\Pixel\pixelability_macabrebonepulse.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\Pixel\pixelability_maternal.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\Pixel\pixelability_necrosis.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\Pixel\pixelability_opposingbonescost.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\Pixel\pixelability_partingstroke.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\Pixel\pixelability_protector.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\Pixel\pixelability_rancor.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\Pixel\pixelability_relentlessrevenant.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\Pixel\pixelability_revedue.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\Pixel\pixelability_selfscaledamage.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\Pixel\pixelability_soothingmeadows.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\Pixel\pixelability_splittingcorpse.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\Pixel\pixelability_torpid.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\Pixel\pixelability_tutordead.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\Pixel\pixelstaticon_bellattack.png" />
+    <EmbeddedResource Include="Art\Sigils\Normal\Pixel\pixelstaticon_bonediggerattack.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="API_dev-API" Version="2.23.3" />
+    <PackageReference Include="Arackulele-GrimoraMod" Version="7.6.4" />
+    <PackageReference Include="BepInEx-MonoMod_Loader_Inscryption" Version="1.0.0" />
+    <PackageReference Include="BepInEx.Analyzers" Version="1.*" PrivateAssets="all" />
+    <PackageReference Include="BepInEx.Core" Version="5.4.19" />
+    <PackageReference Include="BepInEx.PluginInfoProps" Version="2.1.0" />
+    <PackageReference Include="Infiniscryption-Pack_Management_API" Version="1.2.2" />
+    <PackageReference Include="Kopie-Smalltweak_Hammer" Version="5.2.2" />
+    <PackageReference Include="UnityEngine.Modules" Version="2019.4.24" IncludeAssets="compile" />
+    <PackageReference Include="Inscryption.GameLibs" Version="1.9.0-r.0" />
+    <PackageReference Include="WhistleWind-New_Spell_Card_Toolkit" Version="1.2.5" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(TargetFramework.TrimEnd(`0123456789`))' == 'net'">
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.2" PrivateAssets="all" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Sirenix.Serialization">
+      <HintPath>lib\Sirenix.Serialization.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

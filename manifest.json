@@ -1,0 +1,9 @@
+{
+  "name": "RevenantMod",
+  "version_number": "0.0.19",
+  "website_url": "https://github.com/OrochiUmbra",
+  "description": "Grimora Mod Revenant Card Pack. (P03 KCM Support)",
+  "dependencies": [
+    "API_dev-API-2.23.3"
+  ]
+}
