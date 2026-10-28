@@ -6,3 +6,6 @@ bin/
 .vs/
 .vscode/
 *.cmd
+*.sln
+*.dll
+*.zip

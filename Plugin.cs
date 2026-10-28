@@ -28,7 +28,7 @@ public partial class RevenantMod : BaseUnityPlugin
 	internal static readonly Harmony harmony = new(PluginGUID);
     public const string PluginGUID = "orochiumbra.inscryption.revenantmod";
     public const string PluginName = "RevenantMod";
-    public const string PluginVersion = "0.0.18";
+    public const string PluginVersion = "0.0.20";
 	public static ManualLogSource Log;
 	public static readonly CardMetaCategory GBCPack = CardMetaCategory.GBCPack;
     public static readonly CardMetaCategory GBCPlayable = CardMetaCategory.GBCPlayable;
